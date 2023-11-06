@@ -1,0 +1,99 @@
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: rgb(180, 173, 180);
+}
+
+/*styling the navigation menu*/
+a {
+    color: #000;
+}
+ul {
+    list-style-type: none;
+}
+section {
+    padding: 2rem 4%;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    height: 70px;
+    padding: 2em;
+    font-size: 20px;
+}
+.main li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.main {
+    display: flex;
+}
+.main li {
+    margin: 1.5rem;
+}
+
+/* Styling hero section */
+
+.home {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    margin-top: -50px;
+}
+.home .content {
+    flex: 50rem;
+    margin-top: 15px;
+}
+.home .image {
+    flex: 30rem;
+    margin-bottom: 50px;
+    margin-left: 150px;
+}
+.home .image img {
+    width: 75%;
+    height: 50%;
+    padding: 1rem;
+}
+.home .content h3 {
+    font-size: 50px;
+    color: #000;
+}
+.mainfont {
+    font-family: "Times New Roman";
+}
+.home .content p {
+    font-size: 1.7rem;
+    color: #000;
+    padding: 1rem ;
+}
+
+/* Styling the button  */
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border: 5px solid rgb(240, 154, 122);
+    background-color: rgb(240, 154, 122);
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    margin: 2rem 1rem;
+}
